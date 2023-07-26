@@ -15,12 +15,12 @@ const Home = () => {
       <p className="text-2xl mt-10 flex items-center">
         You can visit my venture website
         <BsArrowBarRight className="mr-5" />
-        <a
-          href={"harshartacademy.com"}
+        <Link
+          href={"https://www.harshartacademy.com"}
           className=" font-semibold text-4xl text-transparent transition-all bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text"
         >
           HARSH ART ACADEMY
-        </a>
+        </Link>
       </p>
     </div>
   );
